@@ -1,0 +1,10 @@
+# Local secrets
+.env
+.env.local
+.env.*.local
+
+# Keep template committed
+!.env.example
+
+# Local MCP config with tokens
+.vscode/mcp.json
