@@ -308,6 +308,13 @@ blockquote cite {
   gap: 1rem;
 }
 
+.contact-phone-link {
+  color: var(--text);
+  text-decoration: none;
+  pointer-events: none;
+  cursor: text;
+}
+
 .site-footer {
   border-top: 1px solid var(--line);
   padding: 1rem 0 1.5rem;
@@ -369,6 +376,13 @@ blockquote cite {
   .gallery,
   .reviews {
     padding: 3rem 0;
+  }
+
+  .contact-phone-link {
+    color: var(--blue);
+    text-decoration: underline;
+    pointer-events: auto;
+    cursor: pointer;
   }
 }
 
