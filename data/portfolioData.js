@@ -10,10 +10,10 @@ export const portfolioData = {
     imageSrc: "assets/scooter.JPG",
     imageAlt: "Placeholder portrait image for Your Name",
     location: "City, State",
-    email: "you@example.com",
+    email: "18jabake@gmail.com",
     phone: "+1 (000) 000-0000",
     resumeUrl: "assets/resume.pdf",
-    linkedInUrl: "https://www.linkedin.com/",
+    linkedInUrl: "https://www.linkedin.com/in/jared-bake",
     githubUrl: "https://github.com/"
   },
   metrics: [
@@ -81,34 +81,24 @@ export const portfolioData = {
   ],
   projects: [
     {
-      name: "Project One",
+      name: "Budgeting App",
       description:
-        "A production-style web app built with modular components, analytics, and role-aware views.",
-      stack: ["JavaScript", "Node.js", "PostgreSQL", "CSS"],
-      impact: "Reduced manual workflows and increased reporting speed by 40%.",
+        "A personal finance web app for tracking spending, setting category budgets, and monitoring monthly trends.",
+      stack: ["JavaScript", "HTML", "CSS"],
+      impact: "Helped users build better spending habits with clear budget visibility.",
       links: [
-        { label: "Live", href: "https://example.com" },
+        { label: "Live Project", href: "https://example.com" },
         { label: "Code", href: "https://github.com/" }
       ]
     },
     {
-      name: "Project Two",
+      name: "Company Website",
       description:
-        "A UI-heavy portfolio experiment focused on storytelling, motion design, and responsive behavior.",
+        "A professional business website focused on service visibility, strong branding, and mobile responsiveness.",
       stack: ["HTML", "CSS", "JavaScript"],
-      impact: "Improved recruiter session time and interaction depth.",
+      impact: "Improved online presence and made company information easier for clients to access.",
       links: [
-        { label: "Live", href: "https://example.com" },
-        { label: "Code", href: "https://github.com/" }
-      ]
-    },
-    {
-      name: "Project Three",
-      description:
-        "A secure API integration dashboard with clear observability and resilient error handling.",
-      stack: ["TypeScript", "Express", "MongoDB"],
-      impact: "Improved debugging speed by centralizing API health insights.",
-      links: [
+        { label: "Live Project", href: "https://example.com" },
         { label: "Code", href: "https://github.com/" }
       ]
     }
@@ -139,8 +129,9 @@ export const portfolioData = {
     text:
       "I am currently open to software engineering opportunities where I can contribute to product quality, team velocity, and long-term code health.",
     cta: [
-      { label: "Email Me", href: "mailto:you@example.com" },
-      { label: "LinkedIn", href: "https://www.linkedin.com/" }
+      { label: "Email", href: "mailto:18jabake@gmail.com" },
+      { label: "LinkedIn", href: "https://www.linkedin.com/in/jared-bake" },
+      { label: "Phone", href: "(208) 740-9053" }
     ]
   }
 };

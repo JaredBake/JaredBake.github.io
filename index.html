@@ -22,7 +22,6 @@
     <div class="background-layer" aria-hidden="true">
       <div class="orb orb-1"></div>
       <div class="orb orb-2"></div>
-      <div class="grid-overlay"></div>
     </div>
 
     <header class="site-header" id="top">
@@ -44,12 +43,18 @@
         <div class="container hero-layout">
           <div class="hero-content reveal">
             <p class="figma-display" id="hero-display-word" data-node-id="1:28"></p>
-            <p class="eyebrow" id="hero-role"></p>
-            <h1 id="hero-title"></h1>
-            <p class="hero-summary" id="hero-summary"></p>
-            <p class="status-pill" id="availability-pill"></p>
-            <div class="hero-actions" id="hero-actions"></div>
-            <ul class="quick-metrics" id="quick-metrics" aria-label="Career highlights"></ul>
+            <p class="eyebrow" id="hero-role">Software Engineer | Full-Stack Developer</p>
+            <h1 id="hero-title">Jared Bake</h1>
+            <p class="hero-summary" id="hero-summary">I build secure, thoughtful products that balance technical quality with user-centered design.</p>
+            <p class="status-pill" id="availability-pill">Available for Summer and Fall 2026 opportunities</p>
+            <div class="hero-actions" id="hero-actions">
+              <a class="btn btn-primary" href="assets/resume.pdf" target="_blank" rel="noopener noreferrer">View Resume</a>
+              <a class="btn btn-secondary" href="https://github.com/JaredBake" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </div>
+            <ul class="quick-metrics" id="quick-metrics" aria-label="Career highlights">
+              <li class="metric-item"><strong class="metric-value">4+</strong><span class="metric-label">Years of Development Experience</span></li>
+              <li class="metric-item"><strong class="metric-value">6</strong><span class="metric-label">Projects Delivered</span></li>
+            </ul>
           </div>
           <div class="hero-side reveal">
             <article class="hero-card profile-card" aria-labelledby="profile-card-title">
@@ -57,14 +62,17 @@
               <figure class="profile-figure">
                 <img id="hero-photo" class="profile-photo" src="assets/scooter.JPG" alt="Profile placeholder" />
                 <figcaption class="profile-meta">
-                  <p id="hero-photo-name"></p>
-                  <p id="hero-photo-location"></p>
+                  <p id="hero-photo-location">Amercian Frok, Utah</p>
                 </figcaption>
               </figure>
             </article>
             <aside class="hero-card focus-card" aria-labelledby="focus-title">
               <h2 id="focus-title">Current Focus</h2>
-              <ul id="focus-list"></ul>
+              <ul id="focus-list">
+                <li>Designing accessible, high-performance web interfaces</li>
+                <li>Writing maintainable architecture with clear module boundaries</li>
+                <li>Applying secure-by-default engineering decisions</li>
+              </ul>
             </aside>
           </div>
         </div>
@@ -79,11 +87,16 @@
           <div class="about-grid">
             <article class="panel" id="about-panel">
                 <h3>My Approach</h3>
-                <p id="approach-text"></p>
+                <p id="approach-text">I enjoy creating software that is both technically strong and genuinely useful.</p>
+                <p>I work best in teams that value ownership, feedback, and practical experimentation.</p>
             </article>
             <article class="panel">
               <h3>What You Can Expect</h3>
-              <ul class="expect-list" id="expect-list"></ul>
+              <ul class="expect-list" id="expect-list">
+                <li>Clear communication and predictable delivery</li>
+                <li>Balanced focus on UX, performance, and maintainability</li>
+                <li>Documented decisions for easier future updates</li>
+              </ul>
             </article>
           </div>
         </div>
@@ -98,11 +111,21 @@
           <div class="resume-layout">
             <article class="panel">
               <h3>Experience</h3>
-              <ol class="timeline" id="experience-list"></ol>
+              <ol class="timeline" id="experience-list">
+                <li class="timeline-item">
+                  <div class="timeline-top"><h4>Full-Stack Developer</h4><span class="period">2024 - Present</span></div>
+                  <p class="organization">Company Name</p>
+                </li>
+              </ol>
             </article>
             <article class="panel">
               <h3>Education and Certifications</h3>
-              <ol class="timeline" id="education-list"></ol>
+              <ol class="timeline" id="education-list">
+                <li class="timeline-item">
+                  <div class="timeline-top"><h4>B.S. in Computer Science</h4><span class="period">2020 - 2024</span></div>
+                  <p class="organization">University Name</p>
+                </li>
+              </ol>
             </article>
           </div>
         </div>
@@ -114,7 +137,39 @@
             <p class="eyebrow">Projects</p>
             <h2 id="projects-title">Selected Work</h2>
           </div>
-          <div class="projects-grid" id="projects-grid"></div>
+          <div class="projects-grid" id="projects-grid">
+            <article class="project-card">
+              <h3>Budgeting App</h3>
+              <p class="project-desc">A personal finance web app for tracking spending, setting category budgets, and monitoring monthly trends.</p>
+              <ul class="stack-list">
+                <li>Flutter</li>
+                <li>Dart</li>
+                <li>Docker</li>
+              </ul>
+              <p class="impact">Helped users build better spending habits with clear budget visibility.</p>
+              <p class="project-link-label">Project Links</p>
+              <div class="project-links">
+                <a class="text-link" href="https://example.com" target="_blank" rel="noopener noreferrer">Live Project</a>
+                <a class="text-link" href="https://github.com/" target="_blank" rel="noopener noreferrer">Code</a>
+              </div>
+            </article>
+            <article class="project-card">
+              <h3>Bake Heating & Cooling Website</h3>
+              <p class="project-desc">A professional business website focused on service visibility, strong branding, and mobile responsiveness.</p>
+              <ul class="stack-list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>GitHub Pages</li>
+              </ul>
+              <p class="impact">Improved online presence and made company information easier for clients to access.</p>
+              <p class="project-link-label">Project Links</p>
+              <div class="project-links">
+                <a class="text-link" href="https://example.com" target="_blank" rel="noopener noreferrer">Live Project</a>
+                <a class="text-link" href="https://github.com/" target="_blank" rel="noopener noreferrer">Code</a>
+              </div>
+            </article>
+          </div>
         </div>
       </section>
 
@@ -127,11 +182,19 @@
           <div class="skills-layout">
             <article class="panel">
               <h3>Toolbox</h3>
-              <ul class="chip-list" id="toolbox-list"></ul>
+              <ul class="chip-list" id="toolbox-list">
+                <li class="chip">JavaScript</li>
+                <li class="chip">HTML</li>
+                <li class="chip">CSS</li>
+              </ul>
             </article>
             <article class="panel">
               <h3>Strengths</h3>
-              <ul class="chip-list" id="strengths-list"></ul>
+              <ul class="chip-list" id="strengths-list">
+                <li class="chip">System Design</li>
+                <li class="chip">Collaboration</li>
+                <li class="chip">Iterative Delivery</li>
+              </ul>
             </article>
           </div>
         </div>
@@ -143,9 +206,12 @@
             <div>
               <p class="eyebrow">Open To Opportunities</p>
               <h2 id="contact-title">Let us build something meaningful.</h2>
-              <p id="contact-text"></p>
+              <p id="contact-text">I am currently open to software engineering opportunities where I can contribute to product quality and long-term code health.</p>
             </div>
-            <div class="contact-actions" id="contact-actions"></div>
+            <div class="contact-actions" id="contact-actions">
+              <p class="contact-info-item">Email: <a class="text-link" href="mailto:18jabake@gmail.com">18jabake@gmail.com</a></p>
+              <p class="contact-info-item">LinkedIn: <a class="text-link" href="https://www.linkedin.com/in/jared-bake" target="_blank" rel="noopener noreferrer">linkedin.com</a></p>
+            </div>
           </article>
         </div>
       </section>
@@ -153,10 +219,13 @@
 
     <footer class="site-footer">
       <div class="container footer-wrap">
-        <p id="footer-copy"></p>
-        <a href="#top" class="top-link">Back to top</a>
+        <p id="footer-copy">2026 Jared Bake | Built for recruiters, teams, and collaborators.</p>
       </div>
     </footer>
+
+    <noscript>
+      <p style="margin:0;padding:0.8rem 1rem;background:#ffffff;color:#111111;">JavaScript is disabled, so this page is showing fallback content.</p>
+    </noscript>
 
     <script type="module" src="js/main.js"></script>
   </body>

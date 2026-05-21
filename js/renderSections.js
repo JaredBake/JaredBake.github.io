@@ -19,13 +19,21 @@ function renderHero(data) {
 
   const actions = document.getElementById("hero-actions");
   if (actions) {
+    actions.innerHTML = "";
+    const resumeLink = createSafeLink("View Resume", data.profile.resumeUrl, "btn btn-primary");
+    resumeLink.target = "_blank";
+    resumeLink.rel = "noopener noreferrer";
+
     actions.append(
-      createSafeLink("View Resume", data.profile.resumeUrl, "btn btn-primary"),
+      resumeLink,
       createSafeLink("GitHub", data.profile.githubUrl, "btn btn-secondary")
     );
   }
 
   const metrics = document.getElementById("quick-metrics");
+  if (metrics) {
+    metrics.innerHTML = "";
+  }
   data.metrics.forEach((item) => {
     const li = createElement("li", "metric-item");
     li.append(createElement("strong", "metric-value", item.value), createElement("span", "metric-label", item.label));
@@ -33,6 +41,9 @@ function renderHero(data) {
   });
 
   const focusList = document.getElementById("focus-list");
+  if (focusList) {
+    focusList.innerHTML = "";
+  }
   data.focus.forEach((point) => {
     const li = createElement("li", "focus-item", point);
     focusList?.append(li);
@@ -47,6 +58,9 @@ function renderAbout(data) {
   }
 
   const list = document.getElementById("expect-list");
+  if (list) {
+    list.innerHTML = "";
+  }
   data.expectations.forEach((entry) => {
     list?.append(createElement("li", "", entry));
   });
@@ -54,6 +68,9 @@ function renderAbout(data) {
 
 function renderTimeline(listId, entries) {
   const list = document.getElementById(listId);
+  if (list) {
+    list.innerHTML = "";
+  }
   entries.forEach((entry) => {
     const item = createElement("li", "timeline-item");
 
@@ -72,6 +89,10 @@ function renderTimeline(listId, entries) {
 
 function renderProjects(data) {
   const grid = document.getElementById("projects-grid");
+  if (grid) {
+    grid.innerHTML = "";
+  }
+
   data.projects.forEach((project) => {
     const card = createElement("article", "project-card");
     card.append(createElement("h3", "", project.name), createElement("p", "project-desc", project.description));
@@ -91,9 +112,15 @@ function renderProjects(data) {
 
 function renderSkills(data) {
   const toolbox = document.getElementById("toolbox-list");
+  if (toolbox) {
+    toolbox.innerHTML = "";
+  }
   data.skills.toolbox.forEach((skill) => toolbox?.append(createElement("li", "chip", skill)));
 
   const strengths = document.getElementById("strengths-list");
+  if (strengths) {
+    strengths.innerHTML = "";
+  }
   data.skills.strengths.forEach((skill) => strengths?.append(createElement("li", "chip", skill)));
 }
 
@@ -101,7 +128,25 @@ function renderContact(data) {
   setText("contact-text", data.contact.text);
 
   const actions = document.getElementById("contact-actions");
-  data.contact.cta.forEach((link) => actions?.append(createSafeLink(link.label, link.href, "btn btn-primary")));
+  if (actions) {
+    actions.innerHTML = "";
+  }
+
+  data.contact.cta.forEach((link) => {
+    const label = `${link.label.replace(/:$/, "")}: `;
+    const href = link.href || "";
+    const isClickable = /^(mailto:|https?:\/\/)/i.test(href);
+    const displayText = href.startsWith("mailto:") ? href.replace("mailto:", "") : href;
+    const item = createElement("p", "contact-info-item");
+
+    if (isClickable) {
+      item.append(label, createSafeLink(displayText, href, "text-link"));
+    } else {
+      item.append(label, displayText);
+    }
+
+    actions?.append(item);
+  });
 }
 
 function renderFooter(data) {
