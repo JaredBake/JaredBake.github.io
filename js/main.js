@@ -1,5 +1,6 @@
 import { portfolioData } from "../data/portfolioData.js";
 import { renderPortfolio } from "./renderSections.js";
+import { initSidewaysGame } from "./sidewaysGame.js";
 
 document.documentElement.classList.add("js");
 
@@ -118,6 +119,7 @@ function init() {
   setupSmoothNavigation();
   setupScrollProgress();
   setupActiveNavSignals();
+  initSidewaysGame();
 }
 
 init();

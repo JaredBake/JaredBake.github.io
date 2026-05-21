@@ -36,26 +36,25 @@ body {
     linear-gradient(145deg, var(--bg-0), var(--bg-1) 55%, var(--bg-2));
 }
 
-.skip-link {
-  position: absolute;
-  left: 8px;
-  top: -48px;
-  z-index: 100;
-  padding: 10px 16px;
-  border-radius: 10px;
-  background: #ffffff;
-  color: #111111;
-}
-
-.skip-link:focus {
-  top: 8px;
-}
-
 .background-layer {
   position: fixed;
   inset: 0;
   pointer-events: none;
   z-index: -1;
+}
+
+.sideways-game-layer {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 8;
+  overflow: hidden;
+}
+
+.sideways-game-canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 
 .orb {
@@ -644,6 +643,12 @@ button:focus-visible {
 
   .figma-display {
     font-size: clamp(2.3rem, 20vw, 4.4rem);
+  }
+}
+
+@media (max-width: 1279px), (prefers-reduced-motion: reduce) {
+  .sideways-game-layer {
+    display: none;
   }
 }
 
