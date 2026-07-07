@@ -166,13 +166,14 @@ body {
 .hero-layout {
   display: grid;
   gap: 1.2rem;
-  grid-template-columns: 1.3fr 0.9fr;
+  grid-template-columns: 0.9fr 1.3fr;
 }
 
 .hero-side {
   display: grid;
   gap: 1rem;
   align-content: start;
+  order: 1;
 }
 
 .hero-content,
@@ -186,6 +187,7 @@ body {
 }
 
 .hero-content {
+  order: 2;
   background: linear-gradient(180deg, rgba(42, 45, 52, 0.95), rgba(25, 27, 32, 0.95));
 }
 
@@ -258,6 +260,10 @@ body {
 
 .hero-content .focus-card {
   margin-top: 1rem;
+}
+
+.mobile-only-profile {
+  display: none;
 }
 
 .sr-only {
@@ -645,6 +651,32 @@ button:focus-visible {
   .projects-grid,
   .quick-metrics {
     grid-template-columns: 1fr;
+  }
+
+  .hero-content {
+    background: transparent;
+    border: 0;
+    box-shadow: none;
+    padding: 0;
+    display: grid;
+    gap: 1rem;
+  }
+
+  .hero-intro-block,
+  .hero-details-block {
+    border: 1px solid var(--line-soft);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    background: linear-gradient(180deg, rgba(42, 45, 52, 0.95), rgba(25, 27, 32, 0.95));
+    padding: 1.7rem;
+  }
+
+  .mobile-only-profile {
+    display: block;
+  }
+
+  .hero-side {
+    display: none;
   }
 
   .main-nav {
