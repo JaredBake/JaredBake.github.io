@@ -649,7 +649,12 @@ button:focus-visible {
     grid-template-columns: 1fr;
   }
 
+  .hero-side {
+    order: 2;
+  }
+
   .hero-content {
+    order: 1;
     background: transparent;
     border: 0;
     box-shadow: none;
