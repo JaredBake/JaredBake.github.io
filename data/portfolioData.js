@@ -2,7 +2,7 @@ export const portfolioData = {
   profile: {
     initials: "JB",
     name: "Jared Bake",
-    role: "Computer Scientist | Software Developer",
+    role: "Software Developer | Computer Science",
     summary:
       "I am driven to build innovative products that people genuinely enjoy using. I have always loved creating new things, and I want my work to make a meaningful impact. I focus on delivering secure, well-designed solutions that combine strong engineering with an excellent user experience. As AI reshapes the software industry, I believe its full potential depends on thoughtful developers and engineers who understand how to apply it responsibly, effectively, and with clear technical judgment.",
     availability: "Actively looking for the right fit",
@@ -23,13 +23,13 @@ export const portfolioData = {
   focus: [
     "Engineering secure full-stack systems with practical threat-aware design",
     "Shipping maintainable software through disciplined testing and code review",
-    "Building AI systems that connect software intelligence with hardware performance"
+    "Building user-facing products that balance performance, reliability, and clarity"
   ],
   about: {
     intro:
       "I am a software engineer and computer science graduate from Brigham Young University (April 2026), focused on building software that is secure, useful, and reliable in real production environments.",
     details:
-      "My background includes leading collaborative engineering teams, improving legacy systems, and delivering web and mobile applications with modern tooling including Supabase, Vercel, Flutter, and automated testing workflows. For two years, I worked with interdisciplinary research teams on physical deep neural network systems designed to process information faster and bridge the gap between software and hardware. That work shaped how I think about scalable AI, real-world performance, and long-term industry impact."
+      "My background includes leading collaborative engineering teams, improving legacy systems, and delivering web and mobile applications with modern tooling including Supabase, Vercel, Flutter, and automated testing workflows. Over two years at Brigham Young University, I worked with interdisciplinary teams on Python systems integrated with custom hardware supporting 400+ computer chips in academic research environments."
   },
   expectations: [
     "Secure, production-ready solutions shaped by threat-aware engineering and practical testing",
@@ -38,33 +38,33 @@ export const portfolioData = {
   ],
   experience: [
     {
-      title: "Software Engineer",
+      title: "Software Developer",
       organization: "Bake Heating & Cooling, Payette, ID",
       period: "Jan 2026 - May 2026",
       highlights: [
         "Designed and deployed a secure production website serving hundreds of active users",
         "Applied threat modeling and penetration testing to reduce application risk",
-        "Worked directly with business owners to define final functionality and features"
+        "Worked directly with business owners to determine final functionality and features"
       ]
     },
     {
-      title: "Lead Software Engineer",
+      title: "Software Developer",
       organization: "Brigham Young University, Provo, UT",
       period: "Nov 2022 - Jan 2025",
       highlights: [
-        "Led code reviews, pull request workflow, and weekly Git-based collaboration across team projects",
-        "Researched physical deep neural network designs with interdisciplinary teams to accelerate processing and better integrate software with hardware",
-        "Implemented automated test suites and resolved 100+ defects to improve reliability"
+        "Led code reviews, pull requests, and weekly Git-based version control workflows across team projects",
+        "Designed and maintained Python software integrated with custom hardware supporting 400+ computer chips in academic research environments",
+        "Designed and implemented automated test suites, identifying and resolving 100+ defects to improve system reliability"
       ]
     },
     {
-      title: "Head Software Engineer",
+      title: "QA Engineer",
       organization: "Brigham Young University, Provo, UT",
       period: "Mar 2026 - Apr 2026",
       highlights: [
         "Audited and refactored legacy codebases to improve performance, security, and maintainability",
         "Managed repositories across GitHub and GitLab while enforcing secure version control practices",
-        "Implemented new tests with more than 80% code coverage"
+        "Implemented new tests with more than 80% coverage of code"
       ]
     }
   ],
@@ -93,15 +93,15 @@ export const portfolioData = {
     {
       name: "I-Haul Mobile Application",
       description:
-        "Developed secure backend services with Supabase and Vercel and implemented a TypeScript-based frontend for mobile product workflows.",
+        "Developed backend services using Supabase and Vercel to securely manage user data, and front end with TypeScript.",
       stack: ["TypeScript", "Supabase", "Vercel"],
       impact: "Enabled reliable and secure management of user data across the application lifecycle.",
     },
     {
       name: "Budgeting Application",
       description:
-        "Built a cross-platform budgeting application using Flutter and Dart, delivering full functional scope within three months.",
-      stack: ["Flutter", "Dart", "Docker", "SQL"],
+        "Developed a cross-platform application using Flutter and Dart, delivered full functionality within three months.",
+      stack: ["Flutter", "Dart"],
       impact: "Delivered a complete finance-focused mobile experience on an accelerated timeline.",
     }
   ],
@@ -113,6 +113,7 @@ export const portfolioData = {
       "JavaScript",
       "Dart",
       "C",
+      "COBOL",
       "Flutter",
       "Node.js",
       "SQL",
@@ -122,15 +123,15 @@ export const portfolioData = {
       "Supabase",
       "Vercel",
       "GitHub",
-      "GitLab"
+      "GitLab",
+      "GitHub Pages"
     ],
     strengths: [
       "Full-Stack Development",
       "Secure Coding",
-      "API Design",
+      "APIs",
       "Automated Testing",
-      "Software Design",
-      "Code Review Leadership"
+      "Software Design"
     ]
   },
   contact: {

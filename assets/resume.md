@@ -1,5 +1,5 @@
 Jared Bake
-Software Engineer | Computer Science
+Software Developer | Computer Science
 208-740-9053 | 18jabake@gmail.com | LinkedIn: linkedin.com/in/jared-bake | GitHub: github.com/JaredBake
 EDUCATION
 Brigham Young University, Provo, UT
@@ -12,16 +12,16 @@ Frameworks: Flutter, Node.js, SQL, Docker, Kubernetes, AWS
 Platforms: GitHub, GitLab, Supabase, Vercel, GitHub Pages
 Core Competencies: Full-Stack Development, Secure Coding, APIs, Automated Testing, Software Design
 EXPERIENCE
-Software Engineer – Bake Heating & Cooling, Payette, ID | Jan 2026 – May 2026
+Software Developer – Bake Heating & Cooling, Payette, ID | Jan 2026 – May 2026
 • Designed and deployed a secure production website serving hundreds of active users
 • Applied threat modeling and penetration testing to reduce application risk
 • Worked directly with business owners to determine final functionality and features.
-Lead Software Engineer — Brigham Young University, Provo, UT | Nov 2022 – Jan 2025
+Software Developer — Brigham Young University, Provo, UT | Nov 2022 – Jan 2025
 • Led code reviews, pull requests, and weekly Git-based version control workflows across team projects
 • Designed and maintained Python software integrated with custom hardware supporting 400+ computer chips in
 academic research environments
 • Designed and implemented automated test suites, identifying and resolving 100+ defects to improve system reliability
-Head Software Engineer — Brigham Young University, Provo, UT| Mar 2026 – Apr 2026
+QA Engineer — Brigham Young University, Provo, UT| Mar 2026 – Apr 2026
 • Audited and refactored legacy codebases to improve performance, security, and maintainability
 • Managed repositories across GitHub and GitLab, enforcing secure version control practices
 • Implemented new tests with more than 80% coverage of code

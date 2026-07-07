@@ -649,18 +649,24 @@ button:focus-visible {
     grid-template-columns: 1fr;
   }
 
-  .hero-side {
-    order: 2;
-  }
-
   .hero-content {
-    order: 1;
     background: transparent;
     border: 0;
     box-shadow: none;
     padding: 0;
-    display: grid;
-    gap: 1rem;
+    display: contents;
+  }
+
+  .hero-intro-block {
+    order: 1;
+  }
+
+  .hero-side {
+    order: 2;
+  }
+
+  .hero-details-block {
+    order: 3;
   }
 
   .hero-intro-block,
