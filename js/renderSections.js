@@ -3,7 +3,7 @@ import { createElement, createSafeLink, setText } from "./domHelpers.js";
 function renderHero(data) {
   setText("hero-display-word", data.profile.heroDisplayWord || "TEXT");
   setText("hero-role", data.profile.role);
-  setText("hero-title", `Hi, I am ${data.profile.name}.`);
+  setText("hero-title", `${data.profile.name}`);
   setText("hero-summary", data.profile.summary);
   setText("availability-pill", data.profile.availability || "Open to opportunities");
   setText("hero-photo-name", data.profile.name);

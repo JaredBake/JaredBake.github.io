@@ -2,40 +2,39 @@ export const portfolioData = {
   profile: {
     initials: "JB",
     name: "Jared Bake",
-    role: "Software Engineer | Computer Science",
-    heroDisplayWord: "BUILD",
+    role: "Computer Scientist | Software Engineer",
     summary:
-      "I build secure, reliable software across web and mobile platforms, with a focus on practical architecture, testing discipline, and measurable product outcomes.",
-    availability: "Available for Summer and Fall 2026 opportunities",
+      "I am driven to build innovative products that people genuinely enjoy using. I have always loved creating new things, and I want my work to make a meaningful impact. I focus on delivering secure, well-designed solutions that combine strong engineering with an excellent user experience. As AI reshapes the software industry, I believe its full potential depends on thoughtful developers and engineers who understand how to apply it responsibly, effectively, and with clear technical judgment.",
+    availability: "Actively looking for the right fit",
     imageSrc: "assets/Jared-2.jpg",
     imageAlt: "Portrait of Jared Bake",
     location: "Provo, UT",
     email: "18jabake@gmail.com",
     phone: "(208) 740-9053",
-    resumeUrl: "assets/resume.md",
+    resumeUrl: "assets/Resume.pdf",
     linkedInUrl: "https://www.linkedin.com/in/jared-bake",
     githubUrl: "https://github.com/JaredBake"
   },
   metrics: [
-    { label: "Years Building", value: "4+" },
-    { label: "Defects Resolved", value: "100+" },
-    { label: "Test Coverage", value: "80%+" }
+    { label: "Years Building", value: "6+" },
+    { label: "Projects Delivered", value: "50+" },
+    { label: "Personal Projects", value: "10+" }
   ],
   focus: [
     "Engineering secure full-stack systems with practical threat-aware design",
     "Shipping maintainable software through disciplined testing and code review",
-    "Building user-facing products that balance performance, reliability, and clarity"
+    "Building AI systems that connect software intelligence with hardware performance"
   ],
   about: {
     intro:
-      "I am a software engineer and computer science student at Brigham Young University, graduating in April 2026. I enjoy building software that is secure, useful, and maintainable in real production environments.",
+      "I am a software engineer and computer science graduate from Brigham Young University (April 2026), focused on building software that is secure, useful, and reliable in real production environments.",
     details:
-      "My background includes leading collaborative engineering teams, improving legacy systems, and delivering web and mobile applications with modern tooling including Supabase, Vercel, Flutter, and automated testing workflows."
+      "My background includes leading collaborative engineering teams, improving legacy systems, and delivering web and mobile applications with modern tooling including Supabase, Vercel, Flutter, and automated testing workflows. For two years, I worked with interdisciplinary research teams on physical deep neural network systems designed to process information faster and bridge the gap between software and hardware. That work shaped how I think about scalable AI, real-world performance, and long-term industry impact."
   },
   expectations: [
-    "Clear ownership, direct communication, and reliable execution",
-    "Strong code quality through reviews, testing, and secure defaults",
-    "Product decisions grounded in user value and practical delivery"
+    "Secure, production-ready solutions shaped by threat-aware engineering and practical testing",
+    "Clear collaboration across business, design, and engineering to align features with real user needs",
+    "Reliable delivery of maintainable web and mobile products with measurable, user-focused outcomes"
   ],
   experience: [
     {
@@ -54,7 +53,7 @@ export const portfolioData = {
       period: "Nov 2022 - Jan 2025",
       highlights: [
         "Led code reviews, pull request workflow, and weekly Git-based collaboration across team projects",
-        "Designed and maintained Python software integrated with custom hardware supporting 400+ computer chips",
+        "Researched physical deep neural network designs with interdisciplinary teams to accelerate processing and better integrate software with hardware",
         "Implemented automated test suites and resolved 100+ defects to improve reliability"
       ]
     },
@@ -73,7 +72,7 @@ export const portfolioData = {
     {
       title: "Bachelor of Science in Computer Science",
       organization: "Brigham Young University, Provo, UT",
-      period: "Expected April 2026",
+      period: "April 2026",
       highlights: [
         "Relevant coursework: Data Structures, Algorithms, Software Engineering, Systems Programming",
         "Additional coursework: Computer Security, Web Development, Artificial Intelligence"
@@ -82,7 +81,7 @@ export const portfolioData = {
     {
       title: "Certifications and Honors",
       organization: "Professional Development",
-      period: "Ongoing",
+      period: "",
       highlights: [
         "Cybersecurity Foundations: Application Security",
         "Software Development Lifecycle Certification",
@@ -106,7 +105,7 @@ export const portfolioData = {
       name: "Budgeting Application",
       description:
         "Built a cross-platform budgeting application using Flutter and Dart, delivering full functional scope within three months.",
-      stack: ["Flutter", "Dart"],
+      stack: ["Flutter", "Dart", "Supabase", "Vercel", "TypeScript"],
       impact: "Delivered a complete finance-focused mobile experience on an accelerated timeline.",
       links: [
         { label: "GitHub Profile", href: "https://github.com/JaredBake" },
@@ -122,7 +121,6 @@ export const portfolioData = {
       "JavaScript",
       "Dart",
       "C",
-      "COBOL",
       "Flutter",
       "Node.js",
       "SQL",
