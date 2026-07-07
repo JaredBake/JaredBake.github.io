@@ -7,7 +7,7 @@ export const portfolioData = {
     summary:
       "I build secure, reliable software across web and mobile platforms, with a focus on practical architecture, testing discipline, and measurable product outcomes.",
     availability: "Available for Summer and Fall 2026 opportunities",
-    imageSrc: "assets/scooter.JPG",
+    imageSrc: "assets/Jared-2.jpg",
     imageAlt: "Portrait of Jared Bake",
     location: "Provo, UT",
     email: "18jabake@gmail.com",
