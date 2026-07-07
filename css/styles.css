@@ -262,10 +262,6 @@ body {
   margin-top: 1rem;
 }
 
-.mobile-only-profile {
-  display: none;
-}
-
 .sr-only {
   position: absolute;
   width: 1px;
@@ -669,14 +665,6 @@ button:focus-visible {
     box-shadow: var(--shadow);
     background: linear-gradient(180deg, rgba(42, 45, 52, 0.95), rgba(25, 27, 32, 0.95));
     padding: 1.7rem;
-  }
-
-  .mobile-only-profile {
-    display: block;
-  }
-
-  .hero-side {
-    display: none;
   }
 
   .main-nav {

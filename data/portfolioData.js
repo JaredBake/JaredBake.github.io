@@ -2,7 +2,7 @@ export const portfolioData = {
   profile: {
     initials: "JB",
     name: "Jared Bake",
-    role: "Computer Scientist | Software Engineer",
+    role: "Computer Scientist | Software Developer",
     summary:
       "I am driven to build innovative products that people genuinely enjoy using. I have always loved creating new things, and I want my work to make a meaningful impact. I focus on delivering secure, well-designed solutions that combine strong engineering with an excellent user experience. As AI reshapes the software industry, I believe its full potential depends on thoughtful developers and engineers who understand how to apply it responsibly, effectively, and with clear technical judgment.",
     availability: "Actively looking for the right fit",
