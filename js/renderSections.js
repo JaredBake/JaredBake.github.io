@@ -48,6 +48,31 @@ function renderHero(data) {
     const li = createElement("li", "focus-item", point);
     focusList?.append(li);
   });
+
+  const heroQuickContact = document.getElementById("hero-quick-contact");
+  if (heroQuickContact) {
+    heroQuickContact.innerHTML = "";
+    const quickContacts = (data.contact?.cta || []).filter((entry) => {
+      const label = (entry.label || "").toLowerCase();
+      return label === "email" || label === "phone";
+    });
+
+    quickContacts.forEach((entry) => {
+      const label = `${entry.label.replace(/:$/, "")}: `;
+      const href = entry.href || "";
+      const isClickable = /^(mailto:|https?:\/\/)/i.test(href);
+      const displayText = href.startsWith("mailto:") ? href.replace("mailto:", "") : href;
+      const item = createElement("p", "contact-info-item");
+
+      if (isClickable) {
+        item.append(label, createSafeLink(displayText, href, "text-link"));
+      } else {
+        item.append(label, displayText);
+      }
+
+      heroQuickContact.append(item);
+    });
+  }
 }
 
 function renderAbout(data) {

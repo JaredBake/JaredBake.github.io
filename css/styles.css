@@ -315,6 +315,12 @@ h1 {
   line-height: 1.65;
 }
 
+.hero-quick-contact {
+  margin-top: 0.9rem;
+  display: grid;
+  gap: 0.35rem;
+}
+
 .status-pill {
   margin: 1rem 0 0;
   display: inline-flex;

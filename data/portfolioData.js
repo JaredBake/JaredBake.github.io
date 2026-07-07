@@ -8,9 +8,11 @@ export const portfolioData = {
     availability: "Actively looking for the right fit",
     imageSrc: "assets/Jared-2.jpg",
     imageAlt: "Portrait of Jared Bake",
-    location: "Provo, UT",
-    email: "18jabake@gmail.com",
-    phone: "(208) 740-9053",
+    cta: [
+      { label: "Email", href: "mailto:18jabake@gmail.com" },
+      { label: "LinkedIn", href: "https://www.linkedin.com/in/jared-bake" },
+      { label: "Phone", href: "(208) 740-9053" }
+    ],
     resumeUrl: "assets/Resume.pdf",
     linkedInUrl: "https://www.linkedin.com/in/jared-bake",
     githubUrl: "https://github.com/JaredBake"
