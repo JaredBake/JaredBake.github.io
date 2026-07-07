@@ -1,133 +1,151 @@
 export const portfolioData = {
   profile: {
-    initials: "YN",
+    initials: "JB",
     name: "Jared Bake",
-    role: "Software Engineer | Full-Stack Developer",
+    role: "Software Engineer | Computer Science",
     heroDisplayWord: "BUILD",
     summary:
-      "I build secure, thoughtful products that balance technical quality with user-centered design. I care about turning complex problems into calm, reliable experiences.",
+      "I build secure, reliable software across web and mobile platforms, with a focus on practical architecture, testing discipline, and measurable product outcomes.",
     availability: "Available for Summer and Fall 2026 opportunities",
     imageSrc: "assets/scooter.JPG",
-    imageAlt: "Placeholder portrait image for Your Name",
-    location: "City, State",
+    imageAlt: "Portrait of Jared Bake",
+    location: "Provo, UT",
     email: "18jabake@gmail.com",
-    phone: "+1 (000) 000-0000",
-    resumeUrl: "assets/resume.pdf",
+    phone: "(208) 740-9053",
+    resumeUrl: "assets/resume.md",
     linkedInUrl: "https://www.linkedin.com/in/jared-bake",
-    githubUrl: "https://github.com/"
+    githubUrl: "https://github.com/JaredBake"
   },
   metrics: [
-    { label: "Years Building", value: "3+" },
-    { label: "Projects Delivered", value: "12" },
-    { label: "Stacks Used", value: "6" }
+    { label: "Years Building", value: "4+" },
+    { label: "Defects Resolved", value: "100+" },
+    { label: "Test Coverage", value: "80%+" }
   ],
   focus: [
-    "Designing accessible, high-performance web interfaces",
-    "Writing maintainable architecture with clear module boundaries",
-    "Applying secure-by-default engineering decisions"
+    "Engineering secure full-stack systems with practical threat-aware design",
+    "Shipping maintainable software through disciplined testing and code review",
+    "Building user-facing products that balance performance, reliability, and clarity"
   ],
   about: {
     intro:
-      "I am a developer who enjoys creating software that is both technically strong and genuinely useful. My approach combines solid engineering fundamentals, iterative design, and clear communication.",
+      "I am a software engineer and computer science student at Brigham Young University, graduating in April 2026. I enjoy building software that is secure, useful, and maintainable in real production environments.",
     details:
-      "I work best in teams that value ownership, feedback, and practical experimentation. I am continuously refining how I design systems, structure front-end code, and ship polished experiences."
+      "My background includes leading collaborative engineering teams, improving legacy systems, and delivering web and mobile applications with modern tooling including Supabase, Vercel, Flutter, and automated testing workflows."
   },
   expectations: [
-    "Clear communication, status updates, and predictable delivery",
-    "Balanced focus on UX quality, performance, and maintainability",
-    "Documented decisions so future updates stay easy"
+    "Clear ownership, direct communication, and reliable execution",
+    "Strong code quality through reviews, testing, and secure defaults",
+    "Product decisions grounded in user value and practical delivery"
   ],
   experience: [
     {
-      title: "Full-Stack Developer",
-      organization: "Company Name",
-      period: "2024 - Present",
+      title: "Software Engineer",
+      organization: "Bake Heating & Cooling, Payette, ID",
+      period: "Jan 2026 - May 2026",
       highlights: [
-        "Built and maintained internal and customer-facing applications",
-        "Improved performance and accessibility across key pages",
-        "Partnered with design and product to ship iterative releases"
+        "Designed and deployed a secure production website serving hundreds of active users",
+        "Applied threat modeling and penetration testing to reduce application risk",
+        "Worked directly with business owners to define final functionality and features"
       ]
     },
     {
-      title: "Software Engineering Intern",
-      organization: "Organization Name",
-      period: "2023 - 2024",
+      title: "Lead Software Engineer",
+      organization: "Brigham Young University, Provo, UT",
+      period: "Nov 2022 - Jan 2025",
       highlights: [
-        "Contributed features with automated tests and code reviews",
-        "Documented architecture updates for better onboarding",
-        "Implemented secure coding practices in feature development"
+        "Led code reviews, pull request workflow, and weekly Git-based collaboration across team projects",
+        "Designed and maintained Python software integrated with custom hardware supporting 400+ computer chips",
+        "Implemented automated test suites and resolved 100+ defects to improve reliability"
+      ]
+    },
+    {
+      title: "Head Software Engineer",
+      organization: "Brigham Young University, Provo, UT",
+      period: "Mar 2026 - Apr 2026",
+      highlights: [
+        "Audited and refactored legacy codebases to improve performance, security, and maintainability",
+        "Managed repositories across GitHub and GitLab while enforcing secure version control practices",
+        "Implemented new tests with more than 80% code coverage"
       ]
     }
   ],
   education: [
     {
-      title: "B.S. in Computer Science",
-      organization: "University Name",
-      period: "2020 - 2024",
+      title: "Bachelor of Science in Computer Science",
+      organization: "Brigham Young University, Provo, UT",
+      period: "Expected April 2026",
       highlights: [
-        "Focused on software engineering, HCI, and system design",
-        "Completed capstone focused on real-time collaboration tools"
+        "Relevant coursework: Data Structures, Algorithms, Software Engineering, Systems Programming",
+        "Additional coursework: Computer Security, Web Development, Artificial Intelligence"
       ]
     },
     {
-      title: "Certifications",
-      organization: "Relevant Programs",
-      period: "2022 - 2025",
+      title: "Certifications and Honors",
+      organization: "Professional Development",
+      period: "Ongoing",
       highlights: [
-        "Cloud fundamentals",
-        "Web accessibility fundamentals"
+        "Cybersecurity Foundations: Application Security",
+        "Software Development Lifecycle Certification",
+        "Dean's List, Brigham Young University"
       ]
     }
   ],
   projects: [
     {
-      name: "Budgeting App",
+      name: "I-Haul Mobile Application",
       description:
-        "A personal finance web app for tracking spending, setting category budgets, and monitoring monthly trends.",
-      stack: ["JavaScript", "HTML", "CSS"],
-      impact: "Helped users build better spending habits with clear budget visibility.",
+        "Developed secure backend services with Supabase and Vercel and implemented a TypeScript-based frontend for mobile product workflows.",
+      stack: ["TypeScript", "Supabase", "Vercel"],
+      impact: "Enabled reliable and secure management of user data across the application lifecycle.",
       links: [
-        { label: "Live Project", href: "https://example.com" },
-        { label: "Code", href: "https://github.com/" }
+        { label: "GitHub Profile", href: "https://github.com/JaredBake" },
+        { label: "LinkedIn", href: "https://www.linkedin.com/in/jared-bake" }
       ]
     },
     {
-      name: "Company Website",
+      name: "Budgeting Application",
       description:
-        "A professional business website focused on service visibility, strong branding, and mobile responsiveness.",
-      stack: ["HTML", "CSS", "JavaScript"],
-      impact: "Improved online presence and made company information easier for clients to access.",
+        "Built a cross-platform budgeting application using Flutter and Dart, delivering full functional scope within three months.",
+      stack: ["Flutter", "Dart"],
+      impact: "Delivered a complete finance-focused mobile experience on an accelerated timeline.",
       links: [
-        { label: "Live Project", href: "https://example.com" },
-        { label: "Code", href: "https://github.com/" }
+        { label: "GitHub Profile", href: "https://github.com/JaredBake" },
+        { label: "LinkedIn", href: "https://www.linkedin.com/in/jared-bake" }
       ]
     }
   ],
   skills: {
     toolbox: [
+      "Java",
+      "Python",
+      "C++",
       "JavaScript",
-      "TypeScript",
-      "React",
+      "Dart",
+      "C",
+      "COBOL",
+      "Flutter",
       "Node.js",
-      "Express",
       "SQL",
-      "NoSQL",
-      "Git",
-      "Testing",
-      "Accessibility"
+      "Docker",
+      "Kubernetes",
+      "AWS",
+      "Supabase",
+      "Vercel",
+      "GitHub",
+      "GitLab"
     ],
     strengths: [
-      "Product Thinking",
-      "System Design",
-      "Cross-Functional Collaboration",
-      "Technical Writing",
-      "Mentoring",
-      "Iterative Delivery"
+      "Full-Stack Development",
+      "Secure Coding",
+      "API Design",
+      "Automated Testing",
+      "Software Design",
+      "Code Review Leadership"
     ]
   },
   contact: {
     text:
-      "I am currently open to software engineering opportunities where I can contribute to product quality, team velocity, and long-term code health.",
+      "I am open to software engineering opportunities where I can contribute secure, high-quality solutions and collaborate closely with product and engineering teams.",
     cta: [
       { label: "Email", href: "mailto:18jabake@gmail.com" },
       { label: "LinkedIn", href: "https://www.linkedin.com/in/jared-bake" },
