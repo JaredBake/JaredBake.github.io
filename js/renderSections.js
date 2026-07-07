@@ -102,10 +102,6 @@ function renderProjects(data) {
 
     card.append(stack, createElement("p", "impact", project.impact));
 
-    const links = createElement("div", "project-links");
-    project.links.forEach((link) => links.append(createSafeLink(link.label, link.href, "text-link")));
-
-    card.append(links);
     grid?.append(card);
   });
 }

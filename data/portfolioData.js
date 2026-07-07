@@ -96,21 +96,13 @@ export const portfolioData = {
         "Developed secure backend services with Supabase and Vercel and implemented a TypeScript-based frontend for mobile product workflows.",
       stack: ["TypeScript", "Supabase", "Vercel"],
       impact: "Enabled reliable and secure management of user data across the application lifecycle.",
-      links: [
-        { label: "GitHub Profile", href: "https://github.com/JaredBake" },
-        { label: "LinkedIn", href: "https://www.linkedin.com/in/jared-bake" }
-      ]
     },
     {
       name: "Budgeting Application",
       description:
         "Built a cross-platform budgeting application using Flutter and Dart, delivering full functional scope within three months.",
-      stack: ["Flutter", "Dart", "Supabase", "Vercel", "TypeScript"],
+      stack: ["Flutter", "Dart", "Docker", "SQL"],
       impact: "Delivered a complete finance-focused mobile experience on an accelerated timeline.",
-      links: [
-        { label: "GitHub Profile", href: "https://github.com/JaredBake" },
-        { label: "LinkedIn", href: "https://www.linkedin.com/in/jared-bake" }
-      ]
     }
   ],
   skills: {
